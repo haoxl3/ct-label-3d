@@ -3,6 +3,7 @@ export default {
   routes: [
     {path: '/', component: 'index'},
     {path: '/docs', component: 'docs'},
-    {path: '/label', component: 'label'}
+    {path: '/label', component: 'label'},
+    {path: '/cross', component: 'crossHairs'}
   ]
 };
