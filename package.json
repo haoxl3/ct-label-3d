@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "author": "haoxiaoli <haoxiaoli@baidu.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@cornerstonejs/core": "^0.13.9",
+    "@cornerstonejs/streaming-image-volume-loader": "^0.4.9",
+    "@cornerstonejs/tools": "^0.20.13",
+    "@kitware/vtk.js": "^25.2.2",
+    "cornerstone-wado-image-loader": "^4.1.3",
+    "dcmjs": "^0.24.4",
+    "dicom-parser": "^1.8.13",
+    "gl-matrix": "^3.4.3",
+    "umi": "^4.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.1.2"
+  }
+}
