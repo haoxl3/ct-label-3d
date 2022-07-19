@@ -18,6 +18,7 @@ const {
 } = cornerstoneTools;
 import {setCtTransferFunctionForVolumeActor} from '@/utils/setCtTransferFunctionForVolumeActor';
 // import {addDropdownToToolbar} from '@/utils/addDropdownToToolbar';
+import {imageIds} from '@/utils/imageIds';
 
 const { MouseBindings } = csToolsEnums;
 const { ViewportType } = Enums;
@@ -78,7 +79,8 @@ const CrossHairs = () => {
         // Add tools to Cornerstone3D
         cornerstoneTools.addTool(StackScrollMouseWheelTool);
         cornerstoneTools.addTool(CrosshairsTool);
-        const imageIds = '';
+        // const imageIds = '';
+        console.log(imageIds);
         const volume = await volumeLoader.createAndCacheVolume(volumeId, {
             imageIds,
         });
