@@ -14,6 +14,9 @@ export default function Layout() {
         <li>
           <Link to="/label">label</Link>
         </li>
+        <li>
+          <Link to="/cross">crossHairs</Link>
+        </li>
       </ul>
       <Outlet />
     </div>
